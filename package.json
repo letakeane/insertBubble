@@ -1,0 +1,23 @@
+{
+  "name": "@letakeane/insertbubble",
+  "version": "1.0.0",
+  "description": "Bubble sort and insertion sort",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "bubble",
+    "insertion",
+    "sort"
+  ],
+  "author": "Leta Keane",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
