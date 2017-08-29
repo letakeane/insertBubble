@@ -1,4 +1,4 @@
-const bubbleSort = require('./lib/bubble.js')
+const bubbleSort = require('./lib/bubble.js').bubbleSort;
 
 const insertionSort = (array) => {
   for (let j = 0; j < array.length; j++) {
@@ -12,6 +12,6 @@ const insertionSort = (array) => {
 }
 
 module.exports = {
-  insertionSort,
-  bubbleSort
+  bubbleSort,
+  insertionSort
 }
