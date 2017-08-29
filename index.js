@@ -1,5 +1,6 @@
-const bubbleSort = require('./lib/bubble.js').bubbleSort;
-const insertionSort = require('./lib/insert.js').insertionSort;
+const bubbleSort = require('./lib/bubble.js');
+
+const insertionSort = require('./lib/insert.js');
 
 module.exports = {
   bubbleSort,
